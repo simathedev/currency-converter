@@ -10,4 +10,6 @@
 4. Cick the convert button.
 5. If you wish to reverse the two countries select the exchange icon(arrows) 
 
-credit: followed a tutorial from CodingNepal(on youtube) and made some changes to the code.
+
+
+_credit: followed a tutorial from CodingNepal(on youtube) and made some changes to the code._
