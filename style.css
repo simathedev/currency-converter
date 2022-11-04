@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,100&family=Open+Sans:wght@300&family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:ital,wght@0,300;0,600;1,200&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins',sans-serif;
+}
+:root{
+    --color-primary:rgba(192, 241, 245, 0.692);
+    --color-button:rgba(10, 140, 232, 0.924);
+    --color-wrapper:white;
+    --color-input:rgba(202, 217, 222, 0.861);
+    --color-focus:rgb(64, 214, 237);
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background:var(--color-primary);
+}
+.wrapper{
+    width:370px;
+    padding:30px;
+    border-radius:1rem;
+    background:var(--color-wrapper);
+}
+.wrapper header{
+   font-size:30px; 
+   font-weight:500;
+   text-align:center;
+}
+.wrapper form{
+    margin:40px 0 30px 0;
+}
+form :where(input,select,button){
+    width:100%;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+form p{
+    font-size:18px;
+    margin-bottom:5px;
+}
+form input{
+height:50px;
+font-size:17px;
+padding:0 15px;
+border:1px solid var(--color-input);
+}
+form input:focus{
+    padding:0 14px;
+    border:2px solid var(--color-focus);
+}
+form .dropdown-list{
+    display:flex;
+    margin-top:20px;
+    align-items:center;
+    justify-content:space-between;
+}
+.dropdown-list .select-box{
+    display:flex;
+    width:115px;
+    height:45px;
+    border-radius:5px;
+    align-items:center;
+    justify-content: center;
+    border:1px solid var(--color-input);
+}
+.select-box select{
+    width:auto;
+    font-size:16px;
+    margin:0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+    width:8px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background:var(--color-wrapper);
+}
+.select-box img{
+    max-width:25px;
+}
+
+.drop-list .icon{
+    cursor:pointer;
+    font-size:22px;
+    margin-top:30px;  
+}
+form .exchange-rate{
+font-size:17px;
+margin: 20px 0 30px;
+}
+form button{
+  height:52px;
+  color: white;
+  font-size:17px;
+  cursor:pointer;
+  background:var(--color-focus);
+}
+.credit{
+    text-align:center;
+    font-size:11px;
+}
