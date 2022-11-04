@@ -1,5 +1,6 @@
 # currency-convertor
 ### converts currency based on the exchange rate.
+![readme](https://user-images.githubusercontent.com/113444290/199981425-0400d1fd-f757-4770-b4d4-696e05a2b76f.PNG)
 * Modern UI
 * includes country flags and automatically changes the flags based on the currency selected.
 
